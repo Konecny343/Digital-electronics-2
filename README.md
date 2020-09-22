@@ -1,4 +1,4 @@
-# Digital-electronics-2
+# Digital electronics 2
 
 Cílem předmětu je seznámit studenty se základy mikroprocesorových obvodů a naučit je praktickým postupům návrhu obvodových zapojení embedded systémů, včetně vývoje a testování obslužných programů v jazyce C a ASM.
 
