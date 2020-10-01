@@ -1,6 +1,5 @@
 
-(Digital-electronics-2/Labs/02_leds/TwoLeds/screenshot_simulIDE_TwoLeds.jpg)
-https://github.com/Konecny343/Digital-electronics-2/blob/master/Labs/02_leds/TwoLeds/screenshot_simulIDE_TwoLeds.PNG
+Digital-electronics-2/Labs/02_leds/TwoLeds/screenshot_simulIDE_TwoLeds.png
 
 ### Tables for DDRB, PORTB, and their combination
 
