@@ -1,3 +1,6 @@
+
+(Digital-electronics-2/Labs/02_leds/TwoLeds/screenshot_simulIDE_TwoLeds.png)
+
 ### Tables for DDRB, PORTB, and their combination
 
 | **DDRB** | **Description** |
