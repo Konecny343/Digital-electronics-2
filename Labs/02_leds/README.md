@@ -1,8 +1,18 @@
-### Caltulate LED resistor value for typical red and blue LEDs
+### Tables for DDRB, PORTB, and their combination
 
-R = {V_{SUPPLY}-V_{LED}}{I} = \frac{5-1,8}{20∙10^-3} = 160 Ω
+| **DDRB** | **Description** |
+| :-: | :-- |
+| 0 | Input pin |
+| 1 | Output pin |
 
-| **LED color** | **Supply voltage** | **LED current** | **LED voltage** | **Resistor value** |
-| :-: | :-: | :-: | :-: | :-: |
-| red | 5&nbsp;V | 20&nbsp;mA | 1,8&nbsp;V | 160&nbsp; Ω|
-| blue | 5&nbsp;V | 20&nbsp;mA | 3,6&nbsp;V | 70&nbsp; Ω|
+| **PORTB** | **Description** |
+| :-: | :-- |
+| 0 | Output low value |
+| 1 | Output high value |
+
+| **DDRB** | **PORTB** | **Direction** | **Internal pull-up resistor** | **Description** |
+| :-: | :-: | :-: | :-: | :-- |
+| 0 | 0 | input | no | Tri-state, high-impedance |
+| 0 | 1 | input | yes | Tri-state, high-impedance |
+| 1 | 0 | output | no | Output low |
+| 1 | 1 | output | no |Output high |
